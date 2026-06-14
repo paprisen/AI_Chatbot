@@ -12,6 +12,38 @@ This project is a simple AI Chatbot developed using Python. The chatbot can resp
   
 * NLTK
 
+## Supported Intents
+
+* Greeting (Hi, Hello, Hey)
+
+* Name Query
+
+* Age Query
+  
+* Thank You
+  
+* Help
+
+* AI Information
+
+* Project
+  
+* Goodbye
+
+## How to Run
+
+1. Open the project folder in VS Code.
+   
+2. Open the terminal.
+
+3. Run the following command:
+
+* python chatbot.py
+
+4. Start chatting with the bot.
+
+5. Type quit to exit the chatbot.
+
 ## Running the Chatbot
 
 python chatbot.py
