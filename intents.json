@@ -3,7 +3,7 @@
     {
       "tag": "greeting",
       "patterns": ["hi", "hello", "hey"],
-      "responses": ["Hello!", "Hi there!", "Welcome!"]
+      "responses": ["Hello!", "Hi there! ", "Welcome!"]
     },
     {
       "tag": "goodbye",
@@ -17,8 +17,8 @@
     },
     {
       "tag": "help",
-      "patterns": ["help", "can you help me"],
-      "responses": ["Sure! How can I help?"]
+      "patterns": ["can you help me"],
+      "responses": ["Yes! How can I help?"]
     },
     {
       "tag": "name",
@@ -28,17 +28,12 @@
     {
       "tag": "age",
       "patterns": ["how old are you"],
-      "responses": ["I am a virtual chatbot, so I don't have an age."]
+      "responses": ["I don't have an age."]
     },
     {
       "tag": "college",
       "patterns": ["which college"],
       "responses": ["I am an AI chatbot and don't attend college."]
-    },
-    {
-      "tag": "course",
-      "patterns": ["what course are you studying"],
-      "responses": ["I am here to assist with your questions."]
     },
     {
       "tag": "weather",
@@ -76,29 +71,14 @@
       "responses": ["Python is a popular programming language."]
     },
     {
-      "tag": "machinelearning",
-      "patterns": ["what is machine learning"],
-      "responses": ["Machine Learning enables systems to learn from data."]
-    },
-    {
-      "tag": "motivation",
-      "patterns": ["motivate me"],
-      "responses": ["Keep learning and never give up!"]
-    },
-    {
-      "tag": "joke",
-      "patterns": ["tell me a joke"],
-      "responses": ["Why do programmers prefer dark mode? Because light attracts bugs!"]
-    },
-    {
       "tag": "internship",
       "patterns": ["what is internship"],
       "responses": ["An internship provides practical work experience."]
     },
     {
       "tag": "project",
-      "patterns": ["what project are you working on"],
-      "responses": ["I am currently helping with an AI Chatbot project."]
+      "patterns": ["Can you help me in project "],
+      "responses": ["Yes! Tell me about your project."]
     }
   ]
 }
